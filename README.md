@@ -5,13 +5,13 @@
 Build 2 Backend services which manages user’s accounts and transactions (send/withdraw). 
 
 In Account Manager service, we have:
-- User: Login with Id/Password
-- Payment Account: One user can have multiple accounts like credit, debit, loan...
-- Payment History: Records of transactions
+- [ ] User: Login with Id/Password
+- [ ] Payment Account: One user can have multiple accounts like credit, debit, loan...
+- [ ] Payment History: Records of transactions
 
 In Payment Manager service, we have:
-- Transaction: Include basic information like amount, timestamp, toAddress, status...
-- We have a core transaction process function, that will be executed by `/send` or `/withdraw` API:
+- [ ] Transaction: Include basic information like amount, timestamp, toAddress, status...
+- [ ] We have a core transaction process function, that will be executed by `/send` or `/withdraw` API:
 
 ```js
 function processTransaction(transaction) {
