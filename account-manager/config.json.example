@@ -1,0 +1,32 @@
+{
+  "app": {
+    "name": "your-name-apps",
+    "debug": true
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": ":8080",
+    "log": true
+  },
+  "database": {
+    "mongo": {
+      "host": "localhost",
+      "database": "your-name-database",
+      "user": "",
+      "password": "",
+      "port": ":27017"
+    }
+  },
+  "jwt": {
+      "key" :"xxxxxxx"
+    },
+  "supertokens": {
+    "connectionURI": "https://xxxxxx.supertokens.io",
+    "apiKey": "xxxxxx",
+    "apiBasePath" : "/xx",
+    "websiteBasePath": "/xx",
+    "AppName":"account-manager",
+    "APIDomain": "http://localhost:8080",
+    "WebsiteDomain": "http://localhost:3000"
+  }
+}
